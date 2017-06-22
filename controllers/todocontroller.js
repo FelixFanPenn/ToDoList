@@ -6,7 +6,7 @@ var bp = require("body-parser");
 var mongoose = require("mongoose");
 mongoose.Promise = global.Promise;
 
-mongoose.connect("mongodb://fankejin:U0P8e1n5n@ds021166.mlab.com:21166/fankejin");
+mongoose.connect("mongodb://db:mykey.mlab.com:21166/db");
 
 var urlencodedParser = bp.urlencoded({extended: false});
 
